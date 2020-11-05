@@ -1,0 +1,162 @@
+﻿<metadata>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.rx']/class[@name='RxBase']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='AbstractQuery']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='AbstractQueryData']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='AbstractQueryWithLimit']" name="visibility">public</attr>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='AbstractQueryWithLimit']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Object']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='AbstractQueryWithLimit']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Object']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Boolean']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Boolean">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.Date']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='Query']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.util.Date">
+			</parameter>
+		</method>
+	</add-node>
+
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Object']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Boolean']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Boolean">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.Date']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CountQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.util.Date">
+			</parameter>
+		</method>
+	</add-node>
+
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Object']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Boolean']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Boolean">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.Date']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='CursorQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.util.Date">
+			</parameter>
+		</method>
+	</add-node>
+
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Object']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Boolean']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.lang.Boolean">
+			</parameter>
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.Date']]" />
+	<add-node path="/api/package[@name='org.greenrobot.greendao.query']/class[@name='DeleteQuery']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="index" type="int">
+			</parameter>
+			<parameter name="parameter" type="java.util.Date">
+			</parameter>
+		</method>
+	</add-node>
+	
+
+	<remove-node path="/api/package[@name='org.greenrobot.greendao.internal']/class[@name='FastCursor']/method[@name='getExtras' and count(parameter)=0]" />
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']/method[@name='detach' and count(parameter)=2 and parameter[1][@type='java.lang.Long'] and parameter[2][@type='T']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']/method[@name='get' and count(parameter)=1 and parameter[1][@type='java.lang.Long']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']/method[@name='getNoLock' and count(parameter)=1 and parameter[1][@type='java.lang.Long']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']/method[@name='put' and count(parameter)=2 and parameter[1][@type='java.lang.Long'] and parameter[2][@type='T']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']/method[@name='putNoLock' and count(parameter)=2 and parameter[1][@type='java.lang.Long'] and parameter[2][@type='T']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<add-node path="/api/package[@name='org.greenrobot.greendao.identityscope']/class[@name='IdentityScopeLong']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="p0" type="Java.Lang.Object">
+			</parameter>
+		</method>
+	</add-node>
+	
+</metadata>
