@@ -12,7 +12,7 @@ Install-Package XGreenDaoApi.Droid
 
 **Available on NuGet**
 
-XGreenDao.Droid: [![NuGet](https://img.shields.io/nuget/v/XGreenDao.Droid)](https://www.nuget.org/packages/XGreenDao.Droid/3.3.0)
+XGreenDao.Droid [![NuGet](https://img.shields.io/nuget/v/XGreenDao.Droid)](https://www.nuget.org/packages/XGreenDao.Droid/3.3.0)
 
 
-XGreenDaoApi.Droid: [![NuGet](https://img.shields.io/nuget/v/XGreenDaoApi.Droid)](https://www.nuget.org/packages/XGreenDaoApi.Droid/3.3.0)
+XGreenDaoApi.Droid [![NuGet](https://img.shields.io/nuget/v/XGreenDaoApi.Droid)](https://www.nuget.org/packages/XGreenDaoApi.Droid/3.3.0)
