@@ -5,3 +5,9 @@ greenDAO is a light & fast ORM for Android that maps objects to SQLite databases
 ```
 Install-Package XGreenDao.Droid
 ```
+
+* Available on NuGet 
+
+**XGreenDao.Droid**: [![NuGet](https://www.nuget.org/packages/XGreenDao.Droid/3.3.0)
+
+**XGreenDaoApi.Droid**: [![NuGet](https://www.nuget.org/packages/XGreenDaoApi.Droid/3.3.0)
