@@ -40,38 +40,3 @@ namespace Org.Greenrobot.Greendao.Query
         }
     }
 }
-//namespace Org.Greenrobot.Greendao.Identityscope
-//{
-//    partial class IdentityScopeLong
-//    {
-//        public bool Detach(Java.Lang.Object p1, Java.Lang.Object p2)
-//        {
-//            return Detach((long)p1, p2);
-//        }
-
-//        public void Put(Java.Lang.Object p1, Java.Lang.Object p2)
-//        {
-//            Put((long)p1, p2);
-//        }
-
-//        public void PutNoLock(Java.Lang.Object p1, Java.Lang.Object p2)
-//        {
-//            PutNoLock((long)p1, p2);
-//        }
-
-//        public Java.Lang.Object Get(Java.Lang.Object p1)
-//        {
-//            return Get((long)p1);
-//        }
-
-//        public Java.Lang.Object GetNoLock(Java.Lang.Object p1)
-//        {
-//            return GetNoLock((long)p1);
-//        }
-
-//        public void Remove(Java.Lang.Object p1)
-//        {
-//            Remove((long)p1);
-//        }
-//    }
-//}
